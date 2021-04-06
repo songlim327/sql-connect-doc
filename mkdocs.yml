@@ -1,0 +1,55 @@
+site_name: SQL Connect Documentation
+copyright: Copyright &copy; 2021 E Stream Software
+extra_javascript:
+  - javascripts/extra.js
+theme:
+  name: material
+  palette:
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  logo: img/favicon.ico
+  favicon: img/favicon.ico
+  features:
+    - navigation.top
+    - navigation.tabs
+  # this is used when displaying news
+  custom_dir: overrides
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - meta
+  - toc:
+      toc_depth: 4
+plugins:
+  - search
+nav:
+  - Main: index.md
+  - General: general.md
+  - Private Cloud: private-cloud.md
+  - Troubleshooting: troubleshooting.md
+  - News: news.md
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.sql.com.my/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/SQLEstream/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/user/SQLeStream
+    - icon: fontawesome/regular/envelope
+      link: mailto:songlim@sql.com.my
