@@ -1,0 +1,962 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.0">
+    
+    
+      
+        <title>General - SQL Connect Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.33e2939f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  
+  
+    
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SQL Connect Documentation - General" />
+  <meta property="og:description" content="A knowledge base for SQL Connect" />
+  <meta property="og:url" content="None" />
+  <meta property="og:image" content="https://koala.sql.com.my/sqlconnect/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="light-blue">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-announce">
+          <div class="md-announce__inner md-grid md-typeset">
+            
+  Hi, this is an example news.
+
+          </div>
+        </aside>
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="SQL Connect Documentation" class="md-header__button md-logo" aria-label="SQL Connect Documentation" data-md-component="logo">
+      
+  <img src="../img/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SQL Connect Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              General
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="light-blue" type="radio" name="__palette" id="__palette_1">
+          <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_2" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
+          </label>
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="blue" type="radio" name="__palette" id="__palette_2">
+          <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
+          </label>
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Main
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      General
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../private-cloud/" class="md-tabs__link">
+      Private Cloud
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../troubleshooting/" class="md-tabs__link">
+      Troubleshooting
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../news/" class="md-tabs__link">
+      News
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SQL Connect Documentation" class="md-nav__button md-logo" aria-label="SQL Connect Documentation" data-md-component="logo">
+      
+  <img src="../img/favicon.ico" alt="logo">
+
+    </a>
+    SQL Connect Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Main
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          General
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        General
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-sql-connect" class="md-nav__link">
+    How to use SQL Connect?
+  </a>
+  
+    <nav class="md-nav" aria-label="How to use SQL Connect?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-screen" class="md-nav__link">
+    SQL Connect Screen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-menu" class="md-nav__link">
+    SQL Connect Menu
+  </a>
+  
+    <nav class="md-nav" aria-label="SQL Connect Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#logout" class="md-nav__link">
+    Logout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-paste" class="md-nav__link">
+    Copy / Paste
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-transfer-upload-download" class="md-nav__link">
+    File Transfer (Upload / Download)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-in-zoom-out-scaling-display" class="md-nav__link">
+    Zoom In / Zoom Out (Scaling Display)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-input-method" class="md-nav__link">
+    Changing Input Method
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backup-restore-database" class="md-nav__link">
+    Backup / Restore Database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-image-into-rich-text-editor" class="md-nav__link">
+    Copy Image into Rich Text Editor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-files-in-sql-drive" class="md-nav__link">
+    Delete FIles in SQL Drive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-half-page" class="md-nav__link">
+    Printing Half Page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saving-pdf" class="md-nav__link">
+    Saving PDF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signout-private-cloud-only" class="md-nav__link">
+    Signout (Private Cloud only)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-printing" class="md-nav__link">
+    SQL Connect Printing
+  </a>
+  
+    <nav class="md-nav" aria-label="SQL Connect Printing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alternative-to-sql-connect-printer" class="md-nav__link">
+    Alternative to SQL Connect Printer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-utilities" class="md-nav__link">
+    SQL Utilities
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../private-cloud/" class="md-nav__link">
+        Private Cloud
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../news/" class="md-nav__link">
+        News
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use-sql-connect" class="md-nav__link">
+    How to use SQL Connect?
+  </a>
+  
+    <nav class="md-nav" aria-label="How to use SQL Connect?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-screen" class="md-nav__link">
+    SQL Connect Screen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-menu" class="md-nav__link">
+    SQL Connect Menu
+  </a>
+  
+    <nav class="md-nav" aria-label="SQL Connect Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#logout" class="md-nav__link">
+    Logout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-paste" class="md-nav__link">
+    Copy / Paste
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-transfer-upload-download" class="md-nav__link">
+    File Transfer (Upload / Download)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom-in-zoom-out-scaling-display" class="md-nav__link">
+    Zoom In / Zoom Out (Scaling Display)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changing-input-method" class="md-nav__link">
+    Changing Input Method
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backup-restore-database" class="md-nav__link">
+    Backup / Restore Database
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#copy-image-into-rich-text-editor" class="md-nav__link">
+    Copy Image into Rich Text Editor
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#delete-files-in-sql-drive" class="md-nav__link">
+    Delete FIles in SQL Drive
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#printing-half-page" class="md-nav__link">
+    Printing Half Page
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saving-pdf" class="md-nav__link">
+    Saving PDF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#signout-private-cloud-only" class="md-nav__link">
+    Signout (Private Cloud only)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-printing" class="md-nav__link">
+    SQL Connect Printing
+  </a>
+  
+    <nav class="md-nav" aria-label="SQL Connect Printing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alternative-to-sql-connect-printer" class="md-nav__link">
+    Alternative to SQL Connect Printer
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-utilities" class="md-nav__link">
+    SQL Utilities
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="general">General</h1>
+<h2 id="how-to-use-sql-connect">How to use SQL Connect?</h2>
+<h3 id="sql-connect-screen">SQL Connect Screen</h3>
+<p>Once you login successfully to SQL Connect, you will see a screen like this showing SQL Account/ SQL Payroll. You can interact with this display just as you would in your normal desktop. Your mouse and keyboard will function as if they were connected directly to the remote machine.</p>
+<p><img alt="SQL Connect Screen" src="../img/general/sql-connect-screen.png" /></p>
+<hr />
+<h3 id="sql-connect-menu">SQL Connect Menu</h3>
+<p>To facilitate your works in SQL Connect, we provide a menu containing variety of functions. In order to access the menu, click on the button (circled in red).</p>
+<p><img alt="SQL Connect Menu 1" src="../img/general/sql-connect-menu-1.png" /></p>
+<p>After clicking on the button, the menu will be open and you will see the screen below.</p>
+<p><img alt="SQL Connect Menu 2" src="../img/general/sql-connect-menu-2.png" /></p>
+<p>With the menu, you can:</p>
+<ul>
+<li>Disconnect / Logout from SQL Connect</li>
+<li>Copying / Pasting Text</li>
+<li>Uploading / Downloading files</li>
+<li>Zooming In and Out (Scale Display)</li>
+<li>Changing Input Method</li>
+</ul>
+<hr />
+<h4 id="logout">Logout</h4>
+<p>When you want to quit SQL Connect, kindly use this method. Another way to close completely is by closing the SQL Account/ SQL Payroll application. Click below button available in the menu:</p>
+<p><img alt="Logout 1" src="../img/general/logout-1.png" /></p>
+<p>After click the above button, click "Sign out" on the following screen:</p>
+<p><img alt="Logout 2" src="../img/general/logout-2.png" /></p>
+<p>This method will sign you out from SQL Connect session properly.</p>
+<hr />
+<h4 id="copy-paste">Copy / Paste</h4>
+<p>You can find a clipboard in the menu as shown below:</p>
+<p><img alt="Clipboard" src="../img/general/clipboard.png" /></p>
+<p>Text cut / copied will be shown here. This is for users who have their clipboard not functioning well. Normally, you can copy/paste text directly. </p>
+<p>For <strong>Google Chrome</strong> / <strong>Chromium Edge</strong> users, make sure clipboard permission is <strong>allowed</strong>. It definitely save you a lot of time.</p>
+<p><img alt="Clipboard Google Chrome" src="../img/general/clipboard-google-chrome.png" /></p>
+<p><img alt="Clipboard Chromium Edge" src="../img/general/clipboard-chromium-edge.png" /></p>
+<p><img alt="Clipboard Permission" src="../img/general/clipboard-permission.png" /></p>
+<p>For <strong>Mozilla Firefox</strong> users who can't get their clipboard working, you may refer to the troubleshooting steps available below:</p>
+<p><a href="../troubleshooting/#firefox-clipboard-issue">Troubleshooting: Firefox Clipboard Issue</a></p>
+<hr />
+<h4 id="file-transfer-upload-download">File Transfer (Upload / Download)</h4>
+<p>User can transfer files between SQL Connect and their local PC with <strong>Shared Drive</strong>. It can be accessed by clicking "<strong>Shared Drive</strong>" in the menu.</p>
+<p><img alt="Sql Drive 1" src="../img/general/sql-drive-1.png" /></p>
+<h5 id="upload">Upload</h5>
+<p>Files can be transferred to SQL Connect by dragging and dropping the files into your browser window, or by clicking at the "Upload Files" button. </p>
+<p><img alt="Upload 1" src="../img/general/upload-1.png" /></p>
+<p>The state of all file uploads can be observed in the notification dialog at the bottom right once an upload begins, and can be cleared once completed by clicking the "Clear" button. Downloads are tracked through your browser's own download notification system.</p>
+<p><img alt="Upload 2" src="../img/general/upload-2.png" /></p>
+<p>Files uploaded can be accessed via "<strong>SQL Drive on SQL Connect</strong>"</p>
+<p><img alt="Upload 3" src="../img/general/upload-3.png" /></p>
+<h5 id="download">Download</h5>
+<p>Files can be downloaded by double click on the file you wish to download in the <strong>Shared Drive</strong> interface. </p>
+<p>If you wish to download file from SQL Connect to your local (and the file is not exist in <strong>Shared Drive</strong>), you can save it in the "<strong>Download</strong>" folder in "<strong>SQL Drive on SQL Connect</strong>". It will then trigger a file download action.</p>
+<p><img alt="Download 1" src="../img/general/download-1.png" /></p>
+<hr />
+<h4 id="zoom-in-zoom-out-scaling-display">Zoom In / Zoom Out (Scaling Display)</h4>
+<p>By default, SQL Connect will adjust perfectly according to your pc screen resolution. However, if you wish to change the zoom level, you can change it in the menu.</p>
+<p><img alt="Scaling Display" src="../img/general/scaling-display.png" /></p>
+<hr />
+<h4 id="changing-input-method">Changing Input Method</h4>
+<p>When using SQL Connect in phone/tablet, users may change the input method from "<strong>None</strong>" to "<strong>Text Input</strong>". With this, users is able to use virtual keyboard.</p>
+<p><img alt="Input Method" src="../img/general/input-method.png" /></p>
+<hr />
+<h3 id="backup-restore-database">Backup / Restore Database</h3>
+<p>For database <strong>backup</strong>, you can backup it as usual. (In public cloud, we protect users' data by performing backup twice a day). If you wish to download a database backup to you local PC, you may follow the steps in <a href="#download">Download</a> section.</p>
+<p>For database <strong>restore</strong>, the process is different for public and private cloud. For <strong>public cloud</strong>, you can't do the restoration from the web browser. We have purposely lock it to ensure the safety of users' data. You may need to contact our support with your database backup, and your database will be restored in no time.</p>
+<p>For <strong>private cloud</strong>, user can restore database directly in their server. You can perform restoration just like how you do it in the local. </p>
+<hr />
+<h3 id="copy-image-into-rich-text-editor">Copy Image into Rich Text Editor</h3>
+<ul>
+<li>Firstly, upload the image file to SQL Connect (via <strong>SQL Drive</strong>)</li>
+<li>In SQL Account / SQL Payroll, go to <code>View &gt; File Explorer</code></li>
+<li>Navigate to <code>This PC &gt; SQL Drive on SQL Connect &gt; double click to open your image file</code></li>
+<li>Select All (or press <code>Ctrl + A</code>), and then copy it.</li>
+<li>Go to the rich text editor, paste the image you just copy.</li>
+</ul>
+<p><img alt="Copy Image Rich 1" src="../img/general/copy-image-rich-1.png" />
+<img alt="Copy Image Rich 2" src="../img/general/copy-image-rich-2.png" />
+<img alt="Copy Image Rich 3" src="../img/general/copy-image-rich-3.png" />
+<img alt="Copy Image Rich 4" src="../img/general/copy-image-rich-4.png" /></p>
+<hr />
+<h3 id="delete-files-in-sql-drive">Delete FIles in SQL Drive</h3>
+<p><img alt="Delete Files 1" src="../img/general/delete-files-1.png" />
+<img alt="Delete Files 2" src="../img/general/delete-files-2.png" /></p>
+<hr />
+<h3 id="printing-half-page">Printing Half Page</h3>
+<ul>
+<li>Add paper size.</li>
+</ul>
+<p><img alt="Half Page 1" src="../img/general/half-page-1.png" /></p>
+<ul>
+<li>Add another printer as norm for <strong>Half Page</strong>.</li>
+</ul>
+<p><img alt="Half Page 2" src="../img/general/half-page-2.png" />
+<img alt="Half Page 3" src="../img/general/half-page-3.png" />
+<img alt="Half Page 4" src="../img/general/half-page-4.png" /></p>
+<ul>
+<li>Set default paper size.</li>
+</ul>
+<p><img alt="Half Page 5" src="../img/general/half-page-5.png" /></p>
+<ul>
+<li>Once you have done with the above settings, login into your SQL Connect session and test print with the following steps:</li>
+</ul>
+<p><img alt="Half Page 6" src="../img/general/half-page-6.png" />
+<img alt="Half Page 7" src="../img/general/half-page-7.png" /></p>
+<hr />
+<h3 id="saving-pdf">Saving PDF</h3>
+<p>If you want to download PDF file, save it to the "<strong>Download</strong>" folder in the "<strong>SQL Drive on SQL Connect</strong>"</p>
+<p><img alt="Save Pdf 1" src="../img/general/save-pdf-1.png" /></p>
+<p>It will then trigger the browser print window:</p>
+<p><img alt="Save Pdf 2" src="../img/general/save-pdf-2.png" /></p>
+<p>Usually, you will select your local printer here. WAIT!!!! You want to save a pdf, so change it to "<strong>Save as PDF</strong>".</p>
+<p><img alt="Save Pdf 3" src="../img/general/save-pdf-3.png" /></p>
+<hr />
+<h3 id="signout-private-cloud-only">Signout (Private Cloud only)</h3>
+<p><strong>The is exclusive for private cloud users only.</strong> In private cloud, the user has control over the server. Thus, the admin has the right to signout connections.</p>
+<p><img alt="Signout Connection" src="../img/general/signout-conn.png" /></p>
+<hr />
+<h3 id="sql-connect-printing">SQL Connect Printing</h3>
+<p>In SQL Connect, we have two groups of users (Public cloud users &amp; private cloud users). As a private cloud users, you can print directly to your local printer as long as the printer is accessible from your server. In public, the only option you have is to use the "<strong>SQL Connect Printer</strong>" and then forward to your local printer.</p>
+<p><img alt="Print 1" src="../img/general/print-1.png" /></p>
+<p>By using "<strong>SQL Connect Printer</strong>", you will then able to access the browser print dialog which has the right to utilize your local printer. From there, you can select the printer you want, size you like and so on and finally click print. Below is an example of chrome print dialog:</p>
+<p><img alt="Print 2" src="../img/general/print-2.png" /></p>
+<hr />
+<h4 id="alternative-to-sql-connect-printer">Alternative to SQL Connect Printer</h4>
+<p><img alt="Print Alt 1" src="../img/general/print-alt-1.png" />
+<img alt="Print Alt 2" src="../img/general/print-alt-2.png" />
+<img alt="Print Alt 3" src="../img/general/print-alt-3.png" />
+<img alt="Print Alt 4" src="../img/general/print-alt-4.png" />
+<img alt="Print Alt 5" src="../img/general/print-alt-5.png" /></p>
+<hr />
+<h3 id="sql-utilities">SQL Utilities</h3>
+<p>To add SQL Utilities, follow the steps below:</p>
+<ol>
+<li>Go to <code>File &gt; Run &gt; Configure Program...</code></li>
+<li>Add the utilities software from here: <code>C:\eStream\Utilities</code></li>
+<li>After add successfully, the program should be available at <code>File &gt; Run &gt; ...</code></li>
+</ol>
+<p><img alt="Sql Utilities 1 " src="../img/general/sql-utilities-1.png" />
+<img alt="Sql Utilities 2 " src="../img/general/sql-utilities-2.png" />
+<img alt="Sql Utilities 3 " src="../img/general/sql-utilities-3.png" /></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href=".." class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Main
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../private-cloud/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Private Cloud
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2021 E Stream Software
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://www.sql.com.my/" target="_blank" rel="noopener" title="www.sql.com.my" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.facebook.com/SQLEstream/" target="_blank" rel="noopener" title="www.facebook.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://www.youtube.com/user/SQLeStream" target="_blank" rel="noopener" title="www.youtube.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+      </a>
+    
+      
+      
+      <a href="mailto:songlim@sql.com.my" target="_blank" rel="noopener" title="" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d892486b.min.js"></script>
+      
+        <script src="../javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
