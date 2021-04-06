@@ -45,7 +45,7 @@ hide:
 ### Empty Homepage
 ![Not Registered](img/troubleshooting/not-registered.png)
 
-- If you see the above screen, it indicates that your account is not yet activated. Kindly contact your dealer or our support team for further checking. 
+- If you see the above screen, it indicates that your account is not activated yet. Kindly contact your dealer or our support team for further checking. 
 
 ---
 ## "Access Denied" when login SQL Account / SQL Payroll

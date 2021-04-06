@@ -1,17 +1,10 @@
 ---
 hide:
-  - navigation
+  - toc
 ---
 # SQL Connect Documentation
 
-![SQL Connect Logo](img/favicon.ico)
-
-## Contents
-  - [General](general.md)
-  - [Private Cloud](private-cloud.md)
-  - [Troubleshooting](troubleshooting.md)
-  - [News](news.md)
-
+![Logo](img/favicon.ico)
 
 ## About
-- A knowledge base for SQL Connect
+- A knowledge base for SQL Connect users.

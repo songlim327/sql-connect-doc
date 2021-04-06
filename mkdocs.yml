@@ -1,7 +1,7 @@
 site_name: SQL Connect Documentation
 copyright: Copyright &copy; 2021 E Stream Software
 extra_javascript:
-  - javascripts/extra.js
+  - javascript/customize.js
 theme:
   name: material
   palette:
@@ -26,7 +26,7 @@ theme:
   features:
     - navigation.top
     - navigation.tabs
-  # this is used when displaying news
+  # this is used to extend html block
   custom_dir: overrides
 markdown_extensions:
   - pymdownx.highlight
@@ -38,7 +38,12 @@ markdown_extensions:
 plugins:
   - search
 nav:
-  - Main: index.md
+  - SQL Connect: 
+    - Home: index.md
+    - General: general.md
+    - Private Cloud: private-cloud.md
+    - Troubleshooting: troubleshooting.md
+    - News: news.md
   - General: general.md
   - Private Cloud: private-cloud.md
   - Troubleshooting: troubleshooting.md

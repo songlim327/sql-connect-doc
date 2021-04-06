@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "docs/troubleshooting.md",
-            "mode": "source"
+            "file": "docs/general.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/troubleshooting.md",
+                "file": "docs/general.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,13 +86,13 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "docs/troubleshooting.md",
     "docs/general.md",
+    "docs/index.md",
+    "docs/troubleshooting.md",
     "img/troubleshooting/blur-font-1.png.md",
     "docs/img/troubleshooting/not-registrered.png",
     "Untitled.md",
     "docs/private-cloud.md",
-    "docs/index.md",
     "docs/news.md",
     "Untitled 1.md"
   ]
