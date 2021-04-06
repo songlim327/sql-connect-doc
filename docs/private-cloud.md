@@ -9,36 +9,36 @@ hide:
 
 ---
 ## Quick Checklist
-- Make sure the client has fiber internet (**MAXIS**, **UNIFI**, **TIME**). (**STRICTLY NO STREAMYX/BROADBAND/UNIFI LITE**)
-- Will need 2 IP Address. (1 for Windows & 1 for Debian 9 Virtual Machine) 
+1. Make sure the client has fiber internet (**MAXIS**, **UNIFI**, **TIME**). (**STRICTLY NO STREAMYX/BROADBAND/UNIFI LITE**)
+2. Will need 2 IP Address. (1 for Windows & 1 for Debian 9 Virtual Machine) 
 	- If no special requirements, may leave it empty in the checklist. We will assign them accordingly.
-- Port forwarding will be done on the Debian 9 VM.
+3. Port forwarding will be done on the Debian 9 VM.
 	- If not sure how to configure this, may leave it empty in the checklist. We will help in configuring it.
-- Enable virtualization in the BIOS. Here's how you can check if you have enabled it.
+4. Enable virtualization in the BIOS. Here's how you can check if you have enabled it.
   
     [Check BIOS Virtualization](https://www.trishtech.com/wp/wp-content/uploads/2017/08/check-virtualization-2.jpg)
 
-- If it is not enabled, you may need to enter BIOS to switch it on. Here's how you can enter your server's BIOS.
+5. If it is not enabled, you may need to enter BIOS to switch it on. Here's how you can enter your server's BIOS.
 
 	[Enter BIOS](https://www.laptopmag.com/articles/access-bios-windows-10)
 
-- Enable Hyper-V after the above has been done.
+6. Enable Hyper-V after the above has been done.
 	
     [Enable Hyper-V Manager](https://www.nextofwindows.com/how-to-enable-configure-and-use-hyper-v-on-windows-10)
 
-- Get **Dynamic DNS (DDNS)/ Fixed WAN IP** ready.
-- If you are getting one from *NO-IP*, you may set it up using the client provided. Here's how.
+7. Get **Dynamic DNS (DDNS)/ Fixed WAN IP** ready.
+8. If you are getting one from *NO-IP*, you may set it up using the client provided. Here's how.
 	  
     [NO-IP Dynamic Update Client](https://www.noip.com/download?page=win)
 
-- Make sure the server has **Ethernet** connection.
+9. Make sure the server has **Ethernet** connection.
 	(STRICTLY NO WIFI IS ALLOWED)
-- Download and install Firebird Server.
+10. Download and install Firebird Server.
 	
     [Firebird Downloads](https://firebirdsql.org/en/firebird-3-0-6/)
 
-- Make sure there is no antivirus other than Windows Defender.
-- Fill in the checklist and send it to us.
+11. Make sure there is no antivirus other than Windows Defender.
+12. Fill in the checklist and send it to us.
 	
     [Checklist](https://docs.google.com/spreadsheets/d/1iqCgQMDHGcTYtt0HSgAsEAPTED1eltnQj8ywJdwYYx0/edit?usp=sharing)
 
