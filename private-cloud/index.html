@@ -402,6 +402,40 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bridge-network-failure" class="md-nav__link">
+    Bridge Network Failure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hyper-v-service-not-running" class="md-nav__link">
+    Hyper-V Service Not Running
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-virtual-machine-not-running" class="md-nav__link">
+    SQL Connect Virtual Machine Not Running
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -541,6 +575,40 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bridge-network-failure" class="md-nav__link">
+    Bridge Network Failure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hyper-v-service-not-running" class="md-nav__link">
+    Hyper-V Service Not Running
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-virtual-machine-not-running" class="md-nav__link">
+    SQL Connect Virtual Machine Not Running
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -644,6 +712,40 @@
           <li class="md-nav__item">
   <a href="#operating-system" class="md-nav__link">
     Operating System
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    Troubleshooting
+  </a>
+  
+    <nav class="md-nav" aria-label="Troubleshooting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bridge-network-failure" class="md-nav__link">
+    Bridge Network Failure
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hyper-v-service-not-running" class="md-nav__link">
+    Hyper-V Service Not Running
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sql-connect-virtual-machine-not-running" class="md-nav__link">
+    SQL Connect Virtual Machine Not Running
   </a>
   
 </li>
@@ -761,6 +863,65 @@ Third party antivirus including avast, avira, kaspersky and so on have different
 <li>
 <p>Enable Hyper-V Virtualization.</p>
 <p><a href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">Enable Hyper-V Virtualization</a></p>
+</li>
+</ol>
+<hr />
+<h2 id="troubleshooting">Troubleshooting</h2>
+<h3 id="bridge-network-failure">Bridge Network Failure</h3>
+<ol>
+<li>Visit <code>Control Panel &gt; Network and Internet &gt; Network and Sharing Center</code></li>
+<li>
+<p>Click <code>Change Adapter Options</code></p>
+<p><img alt="Bridge Network 1" src="../img/private-cloud/bridge-1.png" /></p>
+</li>
+<li>
+<p>Look for adapters named <code>Ethernet</code> and <code>Ethernet (Bridge)</code></p>
+<p><img alt="Bridge Network 2" src="../img/private-cloud/bridge-2.png" /></p>
+</li>
+<li>
+<p>Right click and check the properties of each adapter.</p>
+</li>
+<li>
+<p>For <code>Ethernet</code>, it should have the following <strong>check</strong> (Example shown below):</p>
+<ul>
+<li>Microsoft LLDP Protocol Driver</li>
+<li>Hyper-V Extensible Virtual Switch</li>
+</ul>
+<p><img alt="Bridge Network 3" src="../img/private-cloud/bridge-3.png" /></p>
+</li>
+<li>
+<p>For <code>Ethernet (Bridge)</code>, it should be the following <strong>uncheck</strong> (Example shown below):</p>
+<ul>
+<li>Microsoft Network Adapter Multiplexor Protocol</li>
+<li>Hyper-V Extensible Virtual Switch</li>
+</ul>
+<p><img alt="Bridge Network 4" src="../img/private-cloud/bridge-4.png" /></p>
+</li>
+</ol>
+<hr />
+<h3 id="hyper-v-service-not-running">Hyper-V Service Not Running</h3>
+<ol>
+<li>Open <code>Services</code> (search <code>services</code> in Windows search)</li>
+<li>Look for a service called <code>Hyper-V Host Compute Service</code></li>
+<li>
+<p>If the service status is not <strong>Running</strong>, right click and start it.</p>
+<p><img alt="Hyper-V Status" src="../img/private-cloud/hyper-v-status.png" /></p>
+</li>
+</ol>
+<hr />
+<h3 id="sql-connect-virtual-machine-not-running">SQL Connect Virtual Machine Not Running</h3>
+<ol>
+<li>
+<p>Open <code>Hyper-V Manager</code> (search <code>hyper-v</code> in Windows search)</p>
+<p><img alt="VM Status 1" src="../img/private-cloud/vm-status-1.png" /></p>
+</li>
+<li>
+<p>Look for a virtual machine with the name <strong>SQL Connect</strong>. </p>
+</li>
+<li>Make sure it's running.</li>
+<li>
+<p>If it's state is some state other than running, right click on the virtual machine, and click <em>Start</em>.</p>
+<p><img alt="VM Status 2" src="../img/private-cloud/vm-status-2.png" /></p>
 </li>
 </ol>
                 
