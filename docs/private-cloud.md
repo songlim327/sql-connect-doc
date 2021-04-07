@@ -79,3 +79,48 @@ hide:
 5. Enable Hyper-V Virtualization.
 
   	[Enable Hyper-V Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+	
+---
+## Troubleshooting 
+### Bridge Network Failure
+1. Visit `Control Panel > Network and Internet > Network and Sharing Center`
+2. Click `Change Adapter Options`
+
+	![Bridge Network 1](img/private-cloud/bridge-1.png)
+
+3. Look for adapters named `Ethernet` and `Ethernet (Bridge)`
+
+	![Bridge Network 2](img/private-cloud/bridge-2.png)
+
+4. Right click and check the properties of each adapter.
+5. For `Ethernet`, it should have the following **check** (Example shown below):
+	- Microsoft LLDP Protocol Driver
+	- Hyper-V Extensible Virtual Switch
+
+	![Bridge Network 3](img/private-cloud/bridge-3.png)
+
+6. For `Ethernet (Bridge)`, it should be the following **uncheck** (Example shown below):
+	- Microsoft Network Adapter Multiplexor Protocol
+	- Hyper-V Extensible Virtual Switch
+
+	![Bridge Network 4](img/private-cloud/bridge-4.png)
+
+---
+### Hyper-V Service Not Running
+1. Open `Services` (search `services` in Windows search)
+2. Look for a service called `Hyper-V Host Compute Service`
+3. If the service status is not **Running**, right click and start it.
+
+	![Hyper-V Status](img/private-cloud/hyper-v-status.png)
+
+---
+### SQL Connect Virtual Machine Not Running
+1. Open `Hyper-V Manager` (search `hyper-v` in Windows search)
+
+	![VM Status 1](img/private-cloud/vm-status-1.png)
+
+2. Look for a virtual machine with the name **SQL Connect**. 
+3. Make sure it's running.
+4. If it's state is some state other than running, right click on the virtual machine, and click *Start*.
+
+	![VM Status 2](img/private-cloud/vm-status-2.png)

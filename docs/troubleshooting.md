@@ -60,7 +60,7 @@ hide:
 
 ---
 ## Black / Blank Screen
-- When you face this, it indicates that your sessions is not signout completely. Kindly [signout](general.md#signout) and then reconnect again. You should be seeing your screen back to normal.
+- When you face this, it indicates that your sessions is not signout completely. Kindly [signout](general.md#logout) and then reconnect again. You should be seeing your screen back to normal.
 
 ---
 ## Blur Font 
