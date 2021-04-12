@@ -81,6 +81,38 @@ hide:
   	[Enable Hyper-V Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 	
 ---
+## SQL Connect Detector
+- SQL Connect Detector is an application for verifying/troubleshooting private cloud.
+- If you want to check if your server is **eligible** for setup, you may click on **Examination**.
+- If you have a ready private cloud server, and **have issue** connecting to your server, you may click on **Troubleshooting** to run analysis on your system.
+- You can download it from [SQL Connect Detector (SQL Drive)](https://drive.sql.com.my/s/oRz2c52md9tGjrz)
+
+	![SQL Connect Detector 1](img/private-cloud/sql-connect-detector-1.png)
+	
+### Examination
+- You may enter your **dynamic DNS (DDNS)** / **fix Public IP Address** here.
+
+	![SQL Connect Detector 2](img/private-cloud/sql-connect-detector-2.png)
+
+- In the next windows, a report will show you if your server is eligible for the setup. 
+- Your server is ready to setup if **the report has every fields in <text style="color: #43a047">green</text>**.
+- Suggestions will be given based on the report result.
+
+	![SQL Connect Detector 3](img/private-cloud/sql-connect-detector-3.png)
+
+### Troubleshooting
+- You may enter your **dynamic DNS (DDNS)** / **fix Public IP Address** here.
+- You may also change the port forwarded if you are not using the default.
+	
+	![SQL Connect Detector 4](img/private-cloud/sql-connect-detector-4.png)
+	
+- In the next windows, a report will show you what issue your server is facing.
+- Your server's state is healthy if **the report has no field marked in <text style="color:#f44336">red</text>**.
+- Suggestions / solutions will be given based on the report.
+
+	![SQL Connect Detector 5](img/private-cloud/sql-connect-detector-5.png)
+
+---
 ## Troubleshooting 
 ### Bridge Network Failure
 1. Visit `Control Panel > Network and Internet > Network and Sharing Center`
@@ -124,3 +156,10 @@ hide:
 4. If it's state is some state other than running, right click on the virtual machine, and click *Start*.
 
 	![VM Status 2](img/private-cloud/vm-status-2.png)
+	
+---
+### Windows Defender Not Running
+1. If the service is not running, you have probably install **third party antivirus** in your server.
+2. Antivirus like Kaspersky, Avira, Avast and so on are considered as third party antivirus.
+3. These antivirus acts differently in different operation and the outcome is unpredictable.
+4. What you can do is, uninstall it and restart your server. If the issue persist after uninstall, kindly contact our dealer / support.

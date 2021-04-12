@@ -4,14 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "23151e65a8b8555a",
+        "id": "e00431656e183243",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "docs/private-cloud.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -73,6 +72,8 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -85,15 +86,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "e00431656e183243",
   "lastOpenFiles": [
     "docs/private-cloud.md",
+    "docs/general.md",
+    "docs/sql-connect-detector.md",
+    "docs/news.md",
     "Untitled.md",
     "docs/troubleshooting.md",
-    "docs/general.md",
     "docs/index.md",
     "img/troubleshooting/blur-font-1.png.md",
     "docs/img/troubleshooting/not-registrered.png",
-    "docs/news.md",
     "Untitled 1.md"
   ]
 }
