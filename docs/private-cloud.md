@@ -85,7 +85,7 @@ hide:
 - SQL Connect Detector is an application for verifying/troubleshooting private cloud.
 - If you want to check if your server is **eligible** for setup, you may click on **Examination**.
 - If you have a ready private cloud server, and **have issue** connecting to your server, you may click on **Troubleshooting** to run analysis on your system.
-- You can download it from [SQL Connect Detector (SQL Drive)](https://drive.sql.com.my/s/5HCJ2FtMAJCeRei)
+- You can download it from [SQL Connect Detector (SQL Drive)](https://drive.sql.com.my/s/DfsMTb8K947Jffz)
 
 	![SQL Connect Detector 1](img/private-cloud/sql-connect-detector-1.png)
 	
@@ -112,6 +112,36 @@ hide:
 
 	![SQL Connect Detector 5](img/private-cloud/sql-connect-detector-5.png)
 
+---
+## Dynamic DNS (DDNS)
+1. If you don't have a DDNS, you may get one free from **DuckDNS**.
+2. Firstly, visit [Duck DNS](https://www.duckdns.org/).
+
+	![DuckDNS 1](img/private-cloud/duck-1.png)
+
+3. Next, sign in using your gmail.
+	
+	![DuckDNS 2](img/private-cloud/duck-2.png)
+
+4. Once you have sign in, you will reach the following page. 
+5. Create a DDNS that you like. 
+
+	![DuckDNS 3](img/private-cloud/duck-3.png)
+	
+6. You will end up with a screen similar to the one below. Next, click on **install**.
+
+	![DuckDNS 4](img/private-cloud/duck-4.png)
+	
+7. Select `windows-gui`, and choose the DDNS you created just now.
+	
+	![DuckDNS 5](img/private-cloud/duck-5.png)
+	
+8. A guide will be shown similar to the screen below. Follow the steps.
+
+	![DuckDNS 6](img/private-cloud/duck-6.png)
+	
+9. Lastly, write the ddns you just created in the checklist prepared. (Ex. `test-company.duckdns.org`)
+	
 ---
 ## Troubleshooting 
 ### Bridge Network Failure
