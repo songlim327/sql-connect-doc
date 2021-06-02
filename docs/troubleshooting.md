@@ -92,27 +92,10 @@ hide:
 --- 
 ## Mouse Missing, Black Box around Mouse, Empty Page print using SQL Connect Printer Solutions
 - **THIS ISSUE HAS BEEN RESOLVED ACCORDING TO MICROSOFT. KINDLY UPGRADE YOUR WINDOWS TO THE LATEST VERSION TO PREVENT THIS.**
-- These issues are all related and caused by Windows Updates. As far as we researched, it happens in chromium based web browsers only (Google Chrome, Opera, Chromium Edge). You can find the solution below.
+- These issues are all related and caused by Windows Updates. As far as we researched, it happens in chromium based web browsers only (Google Chrome, Opera, Chromium Edge).
 
 - [Microsoft Official Statement](https://support.microsoft.com/en-us/topic/march-15-2021-kb5001567-os-builds-19041-868-and-19042-868-out-of-band-6e0844a2-7551-4b2d-9c4b-4274a5949bf3)
 
 - Summary:
 
 ![Microsoft Statement](img/troubleshooting/microsoft-statement.png)
-
-- To resolve this issue, you may download our repair package and run it in your PC (`uninstall-faulty-windows-update.cmd`). You can get the package from the link: [Repair Package (SQL Drive) ](https://drive.sql.com.my/s/xL3JAiaajf6Wj5C)
-
-### Detailed Steps
-1. Double click on `uninstall-faulty-windows-update.cmd`.
-2. If it prompts for restart, restart your pc (make sure to save all your works/files).
-3. Repeat steps 1 - 2 until all faulty updates have been uninstalled. (Run for a few times)
-4. Once succeed, you will no longer receive prompt for restart dialog.
-
-### Hide Faulty Windows Update
-- **THIS IS FOR WINDOWS 10 ONLY.**
-- If you want to prevent the faulty windows update from installing again, kindly run `wushowhide.diagcab` provided in the package and follow the below steps:
-
-![Hide Windows Update 1](img/troubleshooting/hide-windows-update-1.png)
-![Hide Windows Update 2](img/troubleshooting/hide-windows-update-2.png)
-![Hide Windows Update 3](img/troubleshooting/hide-windows-update-3.png)
-![Hide Windows Update 4](img/troubleshooting/hide-windows-update-4.png)
