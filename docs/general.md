@@ -120,7 +120,7 @@ For **private cloud**, user can restore database directly in their server. You c
 ![Copy Image Rich 4](img/general/copy-image-rich-4.png)
 
 ---
-### Delete FIles in SQL Drive
+### Delete Files in SQL Drive
 ![Delete Files 1](img/general/delete-files-1.png)
 ![Delete Files 2](img/general/delete-files-2.png)
 
