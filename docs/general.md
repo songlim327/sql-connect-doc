@@ -195,3 +195,4 @@ To add SQL Utilities, follow the steps below:
 ![Sql Utilities 1 ](img/general/sql-utilities-1.png)
 ![Sql Utilities 2 ](img/general/sql-utilities-2.png)
 ![Sql Utilities 3 ](img/general/sql-utilities-3.png)
+![Sql Utilities 4 ](img/general/sql-utilities-4.png)
