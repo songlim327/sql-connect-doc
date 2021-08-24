@@ -96,7 +96,8 @@ By default, SQL Connect will adjust perfectly according to your pc screen resolu
 #### Changing Input Method
 When using SQL Connect in phone/tablet, users may change the input method from "**None**" to "**Text Input**". With this, users is able to use virtual keyboard.
 
-![Input Method](img/general/input-method.png)
+![Input Method 1](img/general/input-method-1.png)
+![Input Method 2](img/general/input-method-2.jpg)
 
 ---
 ### Backup / Restore Database
