@@ -197,3 +197,22 @@ To add SQL Utilities, follow the steps below:
 ![Sql Utilities 2 ](img/general/sql-utilities-2.png)
 ![Sql Utilities 3 ](img/general/sql-utilities-3.png)
 ![Sql Utilities 4 ](img/general/sql-utilities-4.png)
+
+### SQL Connect Subscription Checker
+To check your subscription, you can open the app by following the steps below:
+
+1. Go to `File > Run`
+2. Select `SQL Connect Subscription Checker`
+
+![SQL Connect Subscription Checker 1 ](img/general/sqlconnect-checksub-1.png)
+
+If the app is not there, you can add it by following the steps below:
+
+1. Go to `File > Run > Configure Program...`
+2. Add the program from here: `C:\eStream\Utilities`
+3. After add successfully, the program should be available at `File > Run > ...`
+
+![Sql Utilities 1 ](img/general/sql-utilities-1.png)
+![SQL Connect Subscription Checker 2 ](img/general/sqlconnect-checksub-2.png)
+![Sql Utilities 3 ](img/general/sql-utilities-3.png)
+![Sql Connect Subscription Checker 3 ](img/general/sqlconnect-checksub-3.png)
