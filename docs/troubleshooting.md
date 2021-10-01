@@ -99,3 +99,20 @@ hide:
 - Summary:
 
 ![Microsoft Statement](img/troubleshooting/microsoft-statement.png)
+
+---
+## Windows 7 Certificate Issue
+1. Download [ISRG-ROOT-X1](https://drive.google.com/file/d/1PfNzAVrlSGHNQrd3kOyfx3HvH3Jal-X8/view?usp=sharing)
+2. Double click on the file, you will see the windows below.
+
+![Windows 7 Certificate Issue](img/troubleshooting/windows-7-certificate-issue.png)
+	
+3. Install the certificate. Select the second option, click `Browse`.
+
+![Windows 7 Certificate Issue 1](img/troubleshooting/windows-7-certificate-issue-1.png)
+
+4. Select `Trusted Root Certificate Authorities`.
+
+![Windows 7 Certificate Issue 2](img/troubleshooting/windows-7-certificate-issue-2.png)
+
+5. Reboot PC.
