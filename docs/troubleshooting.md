@@ -102,17 +102,42 @@ hide:
 
 ---
 ## Windows 7 Certificate Issue
-1. Download [ISRG-ROOT-X1](https://drive.google.com/file/d/1PfNzAVrlSGHNQrd3kOyfx3HvH3Jal-X8/view?usp=sharing)
-2. Double click on the file, you will see the windows below.
+1. Download the certificate from [ISRG-ROOT-X1](https://drive.google.com/file/d/1PfNzAVrlSGHNQrd3kOyfx3HvH3Jal-X8/view?usp=sharing).
+2. Run the certificate file, you will see a windows as below.
 
-![Windows 7 Certificate Issue](img/troubleshooting/windows-7-certificate-issue.png)
+![Windows 7 Certificate Issue 1](img/troubleshooting/windows-7-certificate-issue-1.png)
 	
 3. Install the certificate. Select the second option, click `Browse`.
 
-![Windows 7 Certificate Issue 1](img/troubleshooting/windows-7-certificate-issue-1.png)
+![Windows 7 Certificate Issue 2](img/troubleshooting/windows-7-certificate-issue-2.png)
 
 4. Select `Trusted Root Certificate Authorities`.
 
-![Windows 7 Certificate Issue 2](img/troubleshooting/windows-7-certificate-issue-2.png)
+![Windows 7 Certificate Issue 3](img/troubleshooting/windows-7-certificate-issue-3.png)
 
 5. Reboot PC.
+
+---
+## Windows 10 Certificate Issue
+1. Update to latest Windows 10.
+
+![Windows 10 Certificate Issue 1](img/troubleshooting/windows-10-certificate-issue-1.png)
+
+2. Download the certificate from [ISRG-ROOT-X1](https://drive.google.com/file/d/1PfNzAVrlSGHNQrd3kOyfx3HvH3Jal-X8/view?usp=sharing).
+3. Run the certificate file, you will see a windows as below
+
+![Windows 10 Certificate Issue 2](img/troubleshooting/windows-10-certificate-issue-2.png)
+
+4. Install the certificate on Local Machine. 
+
+![Windows 10 Certificate Issue 3](img/troubleshooting/windows-10-certificate-issue-3.png)
+
+5. Select the second option, click `Browse`.
+
+![Windows 10 Certificate Issue 4](img/troubleshooting/windows-10-certificate-issue-4.png)
+
+6. Select `Trusted Root Certificate Authorities`.
+
+![Windows 10 Certificate Issue 5](img/troubleshooting/windows-10-certificate-issue-5.png)
+
+7. Reboot PC.
