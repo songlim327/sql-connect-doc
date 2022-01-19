@@ -43,11 +43,10 @@ nav:
     - General: general.md
     - Private Cloud: private-cloud.md
     - Troubleshooting: troubleshooting.md
-    - News: news.md
   - General: general.md
   - Private Cloud: private-cloud.md
   - Troubleshooting: troubleshooting.md
-  - News: news.md
+
 extra:
   social:
     - icon: fontawesome/solid/globe
