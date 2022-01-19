@@ -216,3 +216,14 @@ If the app is not there, you can add it by following the steps below:
 ![SQL Connect Subscription Checker 2 ](img/general/sqlconnect-checksub-2.png)
 ![Sql Utilities 3 ](img/general/sql-utilities-3.png)
 ![Sql Connect Subscription Checker 3 ](img/general/sqlconnect-checksub-3.png)
+
+---
+### Link with SQL Pos
+1. This is for public cloud users only.
+2. Once requested, you will receive a file link. In the file, you can find all the information required to link local SQL Pos with SQL Account. Example on how the file looks like:
+
+	![Link with SQL Pos 1](img/general/link-with-sql-pos-1.png)
+
+3. In SQL Pos, fill in accordingly.
+
+	![Link with SQL Pos 2](img/general/link-with-sql-pos-2.png)
