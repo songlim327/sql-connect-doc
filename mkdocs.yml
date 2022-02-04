@@ -1,5 +1,5 @@
 site_name: SQL Connect Documentation
-copyright: Copyright &copy; 2021 E Stream Software
+copyright: Copyright &copy; 2022 E Stream Software
 extra_javascript:
   - javascript/customize.js
 theme:
