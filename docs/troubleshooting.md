@@ -102,7 +102,7 @@ hide:
 
 ---
 ## Windows 7 Certificate Issue
-1. Download the certificate from [ISRG-ROOT-X1](https://drive.google.com/file/d/1PfNzAVrlSGHNQrd3kOyfx3HvH3Jal-X8/view?usp=sharing).
+1. Download the certificate from [ISRG-ROOT-X1](https://x1.i.lencr.org).
 2. Run the certificate file, you will see a windows as below.
 
 ![Windows 7 Certificate Issue 1](img/troubleshooting/windows-7-certificate-issue-1.png)
@@ -123,7 +123,7 @@ hide:
 
 ![Windows 10 Certificate Issue 1](img/troubleshooting/windows-10-certificate-issue-1.png)
 
-2. Download the certificate from [ISRG-ROOT-X1](https://drive.google.com/file/d/1PfNzAVrlSGHNQrd3kOyfx3HvH3Jal-X8/view?usp=sharing).
+2. Download the certificate from [ISRG-ROOT-X1](https://x1.i.lencr.org).
 3. Run the certificate file, you will see a windows as below
 
 ![Windows 10 Certificate Issue 2](img/troubleshooting/windows-10-certificate-issue-2.png)
