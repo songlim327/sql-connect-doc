@@ -1271,31 +1271,48 @@ Third party antivirus including avast, avira, kaspersky and so on have different
 </ol>
 <h4 id="solutions">Solutions</h4>
 <ol>
-<li>Create two dcf file. (<code>db1.dcf</code> has link to db1, <code>db2.dcf</code> has link to db2)
-<img alt="Create dcf 1" src="../img/private-cloud/windows-user-access-rights/1-create-dcf.png" /></li>
+<li>Create two dcf file. (<code>db1.dcf</code> has link to db1, <code>db2.dcf</code> has link to db2)</li>
 </ol>
+<p><img alt="Create dcf 1" src="../img/private-cloud/windows-user-access-rights/1-create-dcf.png" /></p>
 <p><img alt="Create dcf 2" src="../img/private-cloud/windows-user-access-rights/1-create-dcf-2.png" /></p>
 <ol>
-<li>Right click on <code>db1.dcf</code>, select <code>Properties</code>.
-<img alt="Select Properties 1" src="../img/private-cloud/windows-user-access-rights/2-select-properties.png" /></li>
-<li>Go to <code>Security</code>, select <code>Advanced</code>.
-<img alt="Security Advanced 1" src="../img/private-cloud/windows-user-access-rights/3-security-advanced.png" /></li>
-<li>Click <code>Disable Inheritance</code>. (If the button shows <code>Enable Inheritance</code>, you may skip this step)
-<img alt="Disable Inheritance 1" src="../img/private-cloud/windows-user-access-rights/4-disable-inheritance.png" /></li>
+<li>Right click on <code>db1.dcf</code>, select <code>Properties</code>.</li>
 </ol>
+<p><img alt="Select Properties 1" src="../img/private-cloud/windows-user-access-rights/2-select-properties.png" /></p>
+<ol>
+<li>Go to <code>Security</code>, select <code>Advanced</code>.</li>
+</ol>
+<p><img alt="Security Advanced 1" src="../img/private-cloud/windows-user-access-rights/3-security-advanced.png" /></p>
+<ol>
+<li>Click <code>Disable Inheritance</code>. (If the button shows <code>Enable Inheritance</code>, you may skip this step)</li>
+</ol>
+<p><img alt="Disable Inheritance 1" src="../img/private-cloud/windows-user-access-rights/4-disable-inheritance.png" /></p>
 <p><img alt="Disable Inheritance 2" src="../img/private-cloud/windows-user-access-rights/4-disable-inheritance-2.png" /></p>
-<p><img alt="Disable Inheritance 3" src="../img/private-cloud/windows-user-access-rights/4-disable-inheritance-3.png" />
-5. Remove principal except <code>Administrators</code> and <code>SYSTEM</code>.
-<img alt="Remove Principal 1" src="../img/private-cloud/windows-user-access-rights/5-remove-principal.png" />
-6. Next, click <code>Add</code>, click <code>Select a Principal</code>.
-<img alt="Add Principal 1" src="../img/private-cloud/windows-user-access-rights/6-add-principal.png" />
-7. Search for the windows username you wish. In this case we will search for <code>example-01</code>. (Click <code>Check Names</code> after key in window username)
-<img alt="Check 1" src="../img/private-cloud/windows-user-access-rights/7-check-1.png" /></p>
-<p><img alt="Check 2" src="../img/private-cloud/windows-user-access-rights/7-check-2.png" />8. Configure the permission to <code>Read</code> and <code>Read &amp; execute</code> only, select <code>OK</code>.
-<img alt="Permissions 1" src="../img/private-cloud/windows-user-access-rights/8-permissions.png" />
-9. Repeat the <code>Add</code> procedure if you want more users to use this dcf. Press <code>Apply</code> and <code>OK</code> if there is no more.
-<img alt="Apply 1" src="../img/private-cloud/windows-user-access-rights/9-apply.png" />
-10. Repeat <strong>step 2</strong> to <strong>step 9</strong> for <code>db2.dcf</code>.</p>
+<p><img alt="Disable Inheritance 3" src="../img/private-cloud/windows-user-access-rights/4-disable-inheritance-3.png" /></p>
+<ol>
+<li>Remove principal except <code>Administrators</code> and <code>SYSTEM</code>.</li>
+</ol>
+<p><img alt="Remove Principal 1" src="../img/private-cloud/windows-user-access-rights/5-remove-principal.png" /></p>
+<ol>
+<li>Next, click <code>Add</code>, click <code>Select a Principal</code>.</li>
+</ol>
+<p><img alt="Add Principal 1" src="../img/private-cloud/windows-user-access-rights/6-add-principal.png" /></p>
+<ol>
+<li>Search for the windows username you wish. In this case we will search for <code>example-01</code>. (Click <code>Check Names</code> after key in window username)</li>
+</ol>
+<p><img alt="Check 1" src="../img/private-cloud/windows-user-access-rights/7-check-1.png" /></p>
+<p><img alt="Check 2" src="../img/private-cloud/windows-user-access-rights/7-check-2.png" /></p>
+<ol>
+<li>Configure the permission to <code>Read</code> and <code>Read &amp; execute</code> only, select <code>OK</code>.</li>
+</ol>
+<p><img alt="Permissions 1" src="../img/private-cloud/windows-user-access-rights/8-permissions.png" /></p>
+<ol>
+<li>Repeat the <code>Add</code> procedure if you want more users to use this dcf. Press <code>Apply</code> and <code>OK</code> if there is no more.</li>
+</ol>
+<p><img alt="Apply 1" src="../img/private-cloud/windows-user-access-rights/9-apply.png" /></p>
+<ol>
+<li>Repeat <strong>step 2</strong> to <strong>step 9</strong> for <code>db2.dcf</code>.</li>
+</ol>
 <h4 id="notes">Notes</h4>
 <ol>
 <li>If you are unsure of which window user the emails have access to, feel free to call our support to get the email:windows user mapping.</li>
