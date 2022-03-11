@@ -43,9 +43,11 @@ nav:
     - General: general.md
     - Private Cloud: private-cloud.md
     - Troubleshooting: troubleshooting.md
+    - FAQ: faq.md
   - General: general.md
   - Private Cloud: private-cloud.md
   - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
 
 extra:
   social:
