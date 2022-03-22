@@ -143,6 +143,7 @@ hide:
 9. Lastly, write the ddns you just created in the checklist prepared. (Ex. `test-company.duckdns.org`)
 
 ## Windows User Access Rights
+[Video Tutorial](https://youtu.be/H78QOIUPd7k)
 ### Retrieve Windows Users
 1. Search `Computer Management`.
 ![Retrieve Windows User 1](img/private-cloud/windows-user-access-rights/retrieve-windows-user-1.png)
