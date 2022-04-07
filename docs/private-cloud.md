@@ -112,6 +112,20 @@ hide:
 
 	![SQL Connect Detector 5](img/private-cloud/sql-connect-detector-5.png)
 
+### Issue: Virus/Unwanted Software
+- Sometimes Windows Defender may flag detector as virus/unwanted software. 
+
+	![SQL Connect Detector Issue 1](img/private-cloud/sql-connect-detector-issue-1.png)
+
+- To resolve this, first, go to `Windows Settings > Update & Security > Windows Security > Virus & Threat Protection`.
+- The interface would show a threat found and is similar to the one below.
+
+	![SQL Connect Detector Issue 2](img/private-cloud/sql-connect-detector-issue-2.png)
+
+- Click on the threat, and allow it on device. After this you should be able to open SQL Connect Detector.
+
+	![SQL Connect Detector Issue 3](img/private-cloud/sql-connect-detector-issue-3.png)
+
 ---
 ## Dynamic DNS (DDNS)
 1. If you don't have a DDNS, you may get one free from **DuckDNS**.

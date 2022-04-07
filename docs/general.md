@@ -227,3 +227,11 @@ If the app is not there, you can add it by following the steps below:
 3. In SQL Pos, fill in accordingly.
 
 	![Link with SQL Pos 2](img/general/link-with-sql-pos-2.png)
+
+---
+### Kill Firebird Connections
+![Kill Firebird Connections 1](img/general/kill-firebird-connections-1.png)
+
+![Kill Firebird Connections 2](img/general/kill-firebird-connections-2.png)
+
+![Kill Firebird Connections 3](img/general/kill-firebird-connections-3.png)
