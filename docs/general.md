@@ -230,8 +230,20 @@ If the app is not there, you can add it by following the steps below:
 
 ---
 ### Kill Firebird Connections
-![Kill Firebird Connections 1](img/general/kill-firebird-connections-1.png)
+#### Method 1
+- To use this method, take note that the last logged in user must be `ADMIN`.
 
-![Kill Firebird Connections 2](img/general/kill-firebird-connections-2.png)
+![Kill Firebird Connections 1](img/general/kill-firebird-connections-1-1.png)
 
-![Kill Firebird Connections 3](img/general/kill-firebird-connections-3.png)
+![Kill Firebird Connections 2](img/general/kill-firebird-connections-1-2.png)
+
+![Kill Firebird Connections 3](img/general/kill-firebird-connections-1-3.png)
+
+#### Method 2
+- To use this method, login as `ADMIN`.
+
+![Kill Firebird Connections 1](img/general/kill-firebird-connections-2-1.png)
+
+![Kill Firebird Connections 2](img/general/kill-firebird-connections-2-2.png)
+
+![Kill Firebird Connections 3](img/general/kill-firebird-connections-2-3.png)
