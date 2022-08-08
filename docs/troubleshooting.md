@@ -80,6 +80,13 @@ hide:
 
 ---
 ## Browser Related Issues
+### Copy & Paste Not Working
+- Clipboard permission is blocked, follow steps below to enable.
+
+![Copy Paste 1](img/troubleshooting/copy-paste-1.png)
+
+![Copy Paste 2](img/troubleshooting/copy-paste-2.png)
+
 ### Google Chrome: Blur Font 
 - **THIS ISSUE IS RELATED TO GOOGLE CHROME ONLY.**
 
@@ -103,11 +110,16 @@ hide:
 ![Chrome Pdf 5](img/troubleshooting/chrome-pdf-5.png)
 
 ---
+### Mozilla Firefox: Local Printer Options not pop up
+- **THIS ISSUE IS RELATED TO FIREFOX ONLY**
+![Firefox Print 1](img/troubleshooting/firefox-print.png)
+
+---
 ### Mozilla Firefox: Copy & Paste
 - **THIS ISSUE IS RELATED TO FIREFOX ONLY**
 
-![Copy Paste Issue 1](img/troubleshooting/copy-paste-issue-1.png)
-![Copy Paste Issue 2](img/troubleshooting/copy-paste-issue-2.png)
+![Firefox Copy Paste Issue 1](img/troubleshooting/firefox-copy-paste-issue-1.png)
+![Firefox Copy Paste Issue 2](img/troubleshooting/firefox-copy-paste-issue-2.png)
 
 ---
 ## Past Issues & Solutions
