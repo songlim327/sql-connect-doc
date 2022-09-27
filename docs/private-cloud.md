@@ -73,7 +73,7 @@ hide:
 
 2. If you have used/installed serverlink in the server before, kindly reformat your server.
 3. During the setup, automatic **Windows Update** will be disabled. However, users still able to update by clicking on the update in the settings.
-4. SQL Connect only support **Windows 10 Professional** (version 1709, 1803, 1809) or **Windows Server 2016** (Essential Edition and above).
+4. SQL Connect only support **Windows 10 Professional** (version 1709, 1803, 1809), **Windows 11 Professional** and **Windows Server 2016** (Essential Edition and above).
 	- The version mentioned above supports unlimited concurrent users.
 	- Others will have a limit of 15 concurrent users login at once.
 5. Enable Hyper-V Virtualization.
