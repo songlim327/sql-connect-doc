@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'SQL Connect Documentation',
-  url: 'https://connect.sql.com.my/',
+  url: 'https://connect.sql.com.my',
   baseUrl: '/document/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
