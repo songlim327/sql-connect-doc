@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # SQL Connect Detector
 
-- SQL Connect Detector is an application for verifying/troubleshooting private cloud.
+SQL Connect Detector is an application for verifying/troubleshooting private cloud.
 - If you want to check if your server is **eligible** for setup, you may click on **Examination**.
 - If you have a ready private cloud server, and **have issue** connecting to your server, you may click on **Troubleshooting** to run analysis on your system.
 

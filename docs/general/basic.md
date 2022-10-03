@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## SQL Connect Screen
 
-Once you login successfully to SQL Connect, you will see a screen like this showing SQL Account/ SQL Payroll. You can interact with this display just as you would in your normal desktop. Your mouse and keyboard will function as if they were connected directly to the remote machine.
+Once you login successfully to SQL Connect, you will see a screen like this showing SQL Account/SQL Payroll. You can interact with this display just as you would in your normal desktop. Your mouse and keyboard will function as if they were connected directly to the remote machine.
 
 ![SQL Connect Screen](../../static/img/general/sql-connect-screen.png)
 
@@ -24,7 +24,8 @@ After clicking on the button, the menu will be open and you will see the screen 
 
 With the menu, you can:
 
-- [Disconnect / Logout from SQL Connect](#logout-reset)
+- [Logout from SQL Connect](#logout-reset)
+- [Switch Tab](#switch-tab)
 - [Copying / Pasting Text](#copy--paste)
 - [Uploading / Downloading files](#file-transfer-upload--download)
 - [Zooming In and Out (Scale Display)](#zoom-in--zoom-out-scaling-display)
@@ -43,6 +44,14 @@ After click the above button, click "**Sign out**" on the following screen:
 ![Logout 2](../../static/img/general/logout-2.png)
 
 This method will sign you out from SQL Connect session properly.
+
+---
+
+## Switch Tab
+
+This feature is useful when you have SQL Utility open and wish to switch back to SQL Account. Simply click on the **Switch Tab** button.
+
+![](../../static/img/general/switch-tab.gif)
 
 ---
 
@@ -108,7 +117,7 @@ By default, SQL Connect will adjust perfectly according to your pc screen resolu
 
 ## Changing Input Method
 
-When using SQL Connect in phone/tablet, users may change the input method from "**None**" to "**Text Input**". With this, users is able to use virtual keyboard.
+When using SQL Connect in **phone/tablet**, users may change the input method from "**None**" to "**Text Input**". With this, users is able to use virtual keyboard.
 
 ![Input Method 1](../../static/img/general/input-method-1.png)
 ![Input Method 2](../../static/img/general/input-method-2.jpg)

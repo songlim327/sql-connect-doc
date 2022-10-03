@@ -2,9 +2,19 @@
 sidebar_position: 3
 ---
 
-# Private Cloud Troubleshooting
+# Troubleshooting
 
 Solutions to some common errors in **Private Cloud**.
+
+## "Access Denied" when login SQL Account / SQL Payroll
+
+![Access Denied 1 ](../../static/img/troubleshooting/access-denied-1.png)
+
+- If you face the above error, kindly change the "*Database Engine*" in `.dcf` file from **Firebird Standalone Database** to **Firebird Server**.
+
+![Access Denied 2 ](../../static/img/troubleshooting/access-denied-2.png)
+
+---
 
 ## Bridge Network Failure
 

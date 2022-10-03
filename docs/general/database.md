@@ -6,9 +6,9 @@ sidebar_position: 2
 
 ## Backup
 
->In public cloud, we protect users' data by performing backup twice a day with 10 days a retention.
+>In public cloud, we protect users' data by performing backup twice a day with 10 days retention.
 
-If you wish to download a database backup to you local PC, you may follow the steps in [Download](./basic#download) section.
+If you wish to download a database backup to you local PC, backup your data to **SQL Drive on SQL Connect > Download** folder. More info can be found in the [Download](./basic#download) section.
 
 ## Restore
 

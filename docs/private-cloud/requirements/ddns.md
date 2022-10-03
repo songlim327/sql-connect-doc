@@ -1,9 +1,12 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Dynamic DNS (DDNS)
+# DDNS
 
+Get a free DDNS from Duckdns if you don't have one.
+
+## Steps
 1. If you don't have a DDNS, you may get one free from **DuckDNS**.
 2. Firstly, visit [Duck DNS](https://www.duckdns.org/).
     ![DuckDNS 1](../../../static/img/private-cloud/duck-1.png)

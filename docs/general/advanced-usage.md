@@ -2,10 +2,10 @@
 sidebar_position: 3
 ---
 
-# Usage
+# Advanced Usage
 
 ## Copy Image into Rich Text Editor
-- Firstly, upload the image file to SQL Connect (via **SQL Drive**)
+- Firstly, [*upload*](./basic#upload) the image file to SQL Connect 
 - In SQL Account / SQL Payroll, go to `View > File Explorer`
 - Navigate to `This PC > SQL Drive on SQL Connect > double click to open your image file`
 - Select All (or press `Ctrl + A`), and then copy it.
@@ -20,6 +20,37 @@ sidebar_position: 3
 ## Delete Files in SQL Drive
 ![Delete Files 1](../../static/img/general/delete-files-1.png)
 ![Delete Files 2](../../static/img/general/delete-files-2.png)
+
+---
+## Kill Firebird Connections
+### Method 1
+- To use this method, take note that the last logged in user must be `ADMIN`.
+
+![Kill Firebird Connections 1](../../static/img/general/kill-firebird-connections-1-1.png)
+
+![Kill Firebird Connections 2](../../static/img/general/kill-firebird-connections-1-2.png)
+
+![Kill Firebird Connections 3](../../static/img/general/kill-firebird-connections-1-3.png)
+
+### Method 2
+- To use this method, login as `ADMIN`.
+
+![Kill Firebird Connections 1](../../static/img/general/kill-firebird-connections-2-1.png)
+
+![Kill Firebird Connections 2](../../static/img/general/kill-firebird-connections-2-2.png)
+
+![Kill Firebird Connections 3](../../static/img/general/kill-firebird-connections-2-3.png)
+
+---
+## Link with SQL Pos
+1. This is for **public cloud** users only.
+2. Once requested, you will receive a file link. In the file, you can find all the information required to link local SQL Pos with SQL Account. Example on how the file looks like:
+
+	![Link with SQL Pos 1](../../static/img/general/link-with-sql-pos-1.png)
+
+3. In SQL Pos, fill in accordingly.
+
+	![Link with SQL Pos 2](../../static/img/general/link-with-sql-pos-2.png)
 
 ---
 ## Printing Half Page
@@ -49,13 +80,9 @@ If you want to download PDF file, save it to the "**Download**" folder in the "*
 
 ![Save Pdf 1](../../static/img/general/save-pdf-1.png)
 
-It will then trigger the browser print window:
+The PDF file will be opened in a new tab, click download and save the file to local PC.
 
 ![Save Pdf 2](../../static/img/general/save-pdf-2.png)
-
-Usually, you will select your local printer here. WAIT!!!! You want to save a pdf, so change it to "**Save as PDF**".
-
-![Save Pdf 3](../../static/img/general/save-pdf-3.png)
 
 ---
 ## Signout (Private Cloud only)
@@ -69,7 +96,7 @@ In SQL Connect, we have two groups of users (Public cloud users & private cloud 
 
 ![Print 1](../../static/img/general/print-1.png)
 
-By using "**SQL Connect Printer**", you will then able to access the browser print dialog which has the right to utilize your local printer. From there, you can select the printer you want, size you like and so on and finally click print. Below is an example of chrome print dialog:
+By using "**SQL Connect Printer**", you will then able to access the browser print dialog which has the right to utilize your local printer. From there, you can select the printer you want, size you like and so on. After select all the options you wish, click print. Below is an example of chrome print dialog:
 
 ![Print 2](../../static/img/general/print-2.png)
 
@@ -82,8 +109,20 @@ By using "**SQL Connect Printer**", you will then able to access the browser pri
 ![Print Alt 5](../../static/img/general/print-alt-5.png)
 
 ---
+## SQL Connect Subscription Checker
+To check your subscription, you can open the app by following the steps below:
+
+1. Go to `File > Run`
+2. Select `SQL Connect Subscription Checker`
+
+![SQL Connect Subscription Checker 1 ](../../static/img/general/sqlconnect-checksub-1.png)
+
+If the app is not there, you can add it manually by following the steps in [SQL Utilities](#sql-utilities)
+
+
+---
 ## SQL Utilities
-To add SQL Utilities, follow the steps below:
+By default, SQL Connect has already generate the list when you connect to a session. But if it didn't show up, you can add them manually by following the steps below:
 
 1. Go to `File > Run > Configure Program...`
 2. Add the utilities software from here: `C:\eStream\Utilities`
@@ -94,52 +133,6 @@ To add SQL Utilities, follow the steps below:
 ![Sql Utilities 3 ](../../static/img/general/sql-utilities-3.png)
 ![Sql Utilities 4 ](../../static/img/general/sql-utilities-4.png)
 
-## SQL Connect Subscription Checker
-To check your subscription, you can open the app by following the steps below:
 
-1. Go to `File > Run`
-2. Select `SQL Connect Subscription Checker`
 
-![SQL Connect Subscription Checker 1 ](../../static/img/general/sqlconnect-checksub-1.png)
 
-If the app is not there, you can add it by following the steps below:
-
-1. Go to `File > Run > Configure Program...`
-2. Add the program from here: `C:\eStream\Utilities`
-3. After add successfully, the program should be available at `File > Run > ...`
-
-![Sql Utilities 1 ](../../static/img/general/sql-utilities-1.png)
-![SQL Connect Subscription Checker 2 ](../../static/img/general/sqlconnect-checksub-2.png)
-![Sql Utilities 3 ](../../static/img/general/sql-utilities-3.png)
-![Sql Connect Subscription Checker 3 ](../../static/img/general/sqlconnect-checksub-3.png)
-
----
-## Link with SQL Pos
-1. This is for public cloud users only.
-2. Once requested, you will receive a file link. In the file, you can find all the information required to link local SQL Pos with SQL Account. Example on how the file looks like:
-
-	![Link with SQL Pos 1](../../static/img/general/link-with-sql-pos-1.png)
-
-3. In SQL Pos, fill in accordingly.
-
-	![Link with SQL Pos 2](../../static/img/general/link-with-sql-pos-2.png)
-
----
-## Kill Firebird Connections
-### Method 1
-- To use this method, take note that the last logged in user must be `ADMIN`.
-
-![Kill Firebird Connections 1](../../static/img/general/kill-firebird-connections-1-1.png)
-
-![Kill Firebird Connections 2](../../static/img/general/kill-firebird-connections-1-2.png)
-
-![Kill Firebird Connections 3](../../static/img/general/kill-firebird-connections-1-3.png)
-
-### Method 2
-- To use this method, login as `ADMIN`.
-
-![Kill Firebird Connections 1](../../static/img/general/kill-firebird-connections-2-1.png)
-
-![Kill Firebird Connections 2](../../static/img/general/kill-firebird-connections-2-2.png)
-
-![Kill Firebird Connections 3](../../static/img/general/kill-firebird-connections-2-3.png)

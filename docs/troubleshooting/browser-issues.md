@@ -6,8 +6,6 @@ sidebar_position: 2
 
 Solutions to fix some browser related issues.
 
----
-
 ## Copy & Paste Not Working
 
 - Clipboard permission is blocked, follow steps below to enable.
@@ -15,6 +13,8 @@ Solutions to fix some browser related issues.
 ![Copy Paste 1](../../static/img/troubleshooting/copy-paste-1.png)
 
 ![Copy Paste 2](../../static/img/troubleshooting/copy-paste-2.png)
+
+---
 
 ## Google Chrome
 
@@ -28,6 +28,8 @@ This issue is related to Google Chrome only.
 ![Blur Font 2](../../static/img/troubleshooting/blur-font-2.png)
 ![Blur Font 3](../../static/img/troubleshooting/blur-font-3.png)
 ![Blur Font 4](../../static/img/troubleshooting/blur-font-4.png)
+
+---
 
 ### Fail to Print/Download PDF
 
@@ -56,6 +58,8 @@ This issue is related to Mozilla Firefox only.
 :::note
 
 ![Firefox Print 1](../../static/img/troubleshooting/firefox-print.png)
+
+--- 
 
 ### Copy & Paste
 

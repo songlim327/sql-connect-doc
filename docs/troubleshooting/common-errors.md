@@ -4,47 +4,7 @@ sidebar_position: 1
 
 # Common Errors
 
-Some solutions to common errors in SQL Connect
-
----
-
-## There is no default printer selected
-
-- Do a reset on the user session: [Reset Session](../general/basic#logout-reset)
-
----
-
-## Sign in error
-
-![Google Error 1](../../static/img/troubleshooting/google-error-1.png)
-![Google Error 2](../../static/img/troubleshooting/google-error-2.png)
-
-- if you see errors like above, you will have to check your email's **date of birth**. Google classifies email which has an age less than **18 years old as child**. With a child email, you are **forbidden** from entering many websites available in the web including our SQL Connect services.
-- Besides, make sure no **Family Link** email is used.
-
----
-
-## Empty Homepage
-
-![Not Registered](../../static/img/troubleshooting/not-registered.png)
-
-- If you see the above screen, it indicates that your account is not activated yet. Kindly contact your dealer or our support team for further checking.
-
----
-
-## Private Cloud: "Access Denied" when login SQL Account / SQL Payroll
-
-:::note
-**Only applies to Private Cloud.**
-:::
-
-![Access Denied 1 ](../../static/img/troubleshooting/access-denied-1.png)
-
-- If you face the above error, kindly change the "*Database Engine*" in `.dcf` file from **Firebird Standalone Database** to **Firebird Server**.
-
-![Access Denied 2 ](../../static/img/troubleshooting/access-denied-2.png)
-
----
+Some solutions to common errors in SQL Connect.
 
 ## Black / Blank Screen
 
@@ -95,3 +55,27 @@ Some solutions to common errors in SQL Connect
     ![Windows 10 Certificate Issue 5](../../static/img/troubleshooting/windows-10-certificate-issue-5.png)
 
 7. Reboot PC.
+
+---
+
+## Empty Homepage
+
+![Not Registered](../../static/img/troubleshooting/not-registered.png)
+
+- If you see the above screen, it indicates that your account is not activated yet. Kindly contact your dealer or our support team for further checking.
+
+---
+
+## Sign in error
+
+![Google Error 1](../../static/img/troubleshooting/google-error-1.png)
+![Google Error 2](../../static/img/troubleshooting/google-error-2.png)
+
+- if you see errors like above, you will have to check your email's **date of birth**. Google classifies email which has an age less than **18 years old as child**. With a child email, you are **forbidden** from entering many websites available in the web including our SQL Connect services.
+- Besides, make sure no **Family Link** email is used.
+
+---
+
+## There is no default printer selected
+
+- Do a reset on the user session: [Reset Session](../general/basic#logout-reset)

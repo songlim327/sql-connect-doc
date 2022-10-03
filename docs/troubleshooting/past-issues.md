@@ -6,8 +6,6 @@ sidebar_position: 3
 
 These issues has been fixed permanently.
 
----
-
 ## Corrupted Excel File Issue (Temp Solution)
 
 :::note
