@@ -16,7 +16,7 @@ Some solutions to common errors in SQL Connect.
 
 ### Windows 7
 
-1. Download the certificate from [ISRG-ROOT-X1](https://x1.i.lencr.org).
+1. Download the certificate from [ISRG-ROOT-X1](http://x1.i.lencr.org).
 2. Run the certificate file, you will see a windows as below.
 
     ![Windows 7 Certificate Issue 1](../../static/img/troubleshooting/windows-7-certificate-issue-1.png)
