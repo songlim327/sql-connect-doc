@@ -121,3 +121,24 @@ When using SQL Connect in **phone/tablet**, users may change the input method fr
 
 ![Input Method 1](../../static/img/general/input-method-1.png)
 ![Input Method 2](../../static/img/general/input-method-2.jpg)
+
+---
+
+## Install SQL Connect as an App
+
+When using SQL Connect as an App, you get thin browser tab and able to use SQL Connect in better resolution. Refer to the following steps on how to do it.
+
+1. Visit [connect.sql.com.my](https://connect.sql.com.my) / [private.sql.com.my](https://private.sql.com.my).
+
+2. Click on the button located at the end of address bar.
+
+![App 1](../../static/img/general/app-1.png)
+
+3. Confirm the installation.
+
+![App 2](../../static/img/general/app-2.png)
+
+4. The installation will create a shortcut in the desktop. (You can pin it to your taskbar for easy access)
+
+![App 3](../../static/img/general/app-3.png)
+
