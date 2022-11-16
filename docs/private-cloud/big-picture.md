@@ -6,4 +6,4 @@ sidebar_position: 1
 
 Diagram below illustrates our private cloud architecture.
 
-![Big Picture](../../static/img/private-cloud/big-picture.png)
+   <Image path="/img/private-cloud/big-picture.png" />

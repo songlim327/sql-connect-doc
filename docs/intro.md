@@ -13,4 +13,4 @@ SQL Cloud is an online accounting software accessible anytime, increase producti
 
 ## Cloud Hosted vs Desktop version
 
-![Hybrid-Cloud-Comparison](../static/img/hybrid-cloud.png)
+<Image path="/img/hybrid-cloud.png" />

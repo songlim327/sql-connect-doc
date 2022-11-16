@@ -12,13 +12,13 @@ These issues has been fixed permanently.
 This issue involves both .xlsx & .xls excel format.
 :::
 
-- This issue has been resolved since SQL Account (*5.2021.900.797*) & SQL Payroll (*1.2021.195.165*).
+- This issue has been resolved since SQL Account (_5.2021.900.797_) & SQL Payroll (_1.2021.195.165_).
 - If you still face this issue, kindly contact our support team.
 
-![Excel Issue 1](../../static/img/troubleshooting/excel-issue-1.png)
-![Excel Issue 2](../../static/img/troubleshooting/excel-issue-2.png)
-![Excel Issue 3](../../static/img/troubleshooting/excel-issue-3.png)
-![Excel Issue 4](../../static/img/troubleshooting/excel-issue-4.png)
+<Image path="/img/troubleshooting/excel-issue-1.png" />
+<Image path="/img/troubleshooting/excel-issue-2.png" />
+<Image path="/img/troubleshooting/excel-issue-3.png" />
+<Image path="/img/troubleshooting/excel-issue-4.png" />
 
 ---
 
@@ -34,4 +34,4 @@ This issue has been resolved according to Microsoft. Kindly upgrade your windows
 
 - Summary:
 
-![Microsoft Statement](../../static/img/troubleshooting/microsoft-statement.png)
+<Image path="/img/troubleshooting/microsoft-statement.png" />

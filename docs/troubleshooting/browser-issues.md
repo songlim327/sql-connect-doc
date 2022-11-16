@@ -10,9 +10,8 @@ Solutions to fix some browser related issues.
 
 - Clipboard permission is blocked, follow steps below to enable.
 
-![Copy Paste 1](../../static/img/troubleshooting/copy-paste-1.png)
-
-![Copy Paste 2](../../static/img/troubleshooting/copy-paste-2.png)
+<Image path="/img/troubleshooting/copy-paste-1.png" />
+<Image path="/img/troubleshooting/copy-paste-2.png" />
 
 ---
 
@@ -24,10 +23,10 @@ Solutions to fix some browser related issues.
 This issue is related to Google Chrome only.
 :::
 
-![Blur Font 1](../../static/img/troubleshooting/blur-font-1.png)
-![Blur Font 2](../../static/img/troubleshooting/blur-font-2.png)
-![Blur Font 3](../../static/img/troubleshooting/blur-font-3.png)
-![Blur Font 4](../../static/img/troubleshooting/blur-font-4.png)
+<Image path="/img/troubleshooting/blur-font-1.png" />
+<Image path="/img/troubleshooting/blur-font-2.png" />
+<Image path="/img/troubleshooting/blur-font-3.png" />
+<Image path="/img/troubleshooting/blur-font-4.png" />
 
 ---
 
@@ -37,15 +36,11 @@ This issue is related to Google Chrome only.
 This issue is related to Google Chrome only.
 :::note
 
-![Chrome Pdf 1](../../static/img/troubleshooting/chrome-pdf-1.png)
-
-![Chrome Pdf 2](../../static/img/troubleshooting/chrome-pdf-2.png)
-
-![Chrome Pdf 3](../../static/img/troubleshooting/chrome-pdf-3.png)
-
-![Chrome Pdf 4](../../static/img/troubleshooting/chrome-pdf-4.png)
-
-![Chrome Pdf 5](../../static/img/troubleshooting/chrome-pdf-5.png)
+<Image path="/img/troubleshooting/chrome-pdf-1.png" />
+<Image path="/img/troubleshooting/chrome-pdf-2.png" />
+<Image path="/img/troubleshooting/chrome-pdf-3.png" />
+<Image path="/img/troubleshooting/chrome-pdf-4.png" />
+<Image path="/img/troubleshooting/chrome-pdf-5.png" />
 
 ---
 
@@ -56,10 +51,9 @@ This issue is related to Google Chrome only.
 :::note
 This issue is related to Mozilla Firefox only.
 :::note
+<Image path="/img/troubleshooting/firefox-print.png" />
 
-![Firefox Print 1](../../static/img/troubleshooting/firefox-print.png)
-
---- 
+---
 
 ### Copy & Paste
 
@@ -67,5 +61,5 @@ This issue is related to Mozilla Firefox only.
 This issue is related to Mozilla Firefox only.
 :::note
 
-![Firefox Copy Paste Issue 1](../../static/img/troubleshooting/firefox-copy-paste-issue-1.png)
-![Firefox Copy Paste Issue 2](../../static/img/troubleshooting/firefox-copy-paste-issue-2.png)
+<Image path="/img/troubleshooting/firefox-copy-paste-issue-1.png" />
+<Image path="/img/troubleshooting/firefox-copy-paste-issue-2.png" />
