@@ -43,4 +43,7 @@ Third party antivirus including avast, avira, kaspersky and so on have different
 4. SQL Connect only support **Windows 10 Professional** (version 1709, 1803, 1809), **Windows 11 Professional** and **Windows Server 2016** (Essential Edition and above).
     - The version mentioned above supports unlimited concurrent users.
     - Others will have a limit of 15 concurrent users login at once.
-5. Make sure to enable hyper-v. [Enable Hyper-V Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+5. Make sure to enable hyper-v in the server.
+	 - Step 1: [How to enter BIOS](https://www.laptopmag.com/articles/access-bios-windows-10)
+	 - Step 2: [Enable BIOS Virtualization](https://us.informatiweb.net/tutorials/it/bios/enable-virtualization-intel-vt-x-amd-v--3.html)
+	 - Step 3: [Enable Hyper-V Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
