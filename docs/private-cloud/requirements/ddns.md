@@ -13,13 +13,16 @@ Get a free DDNS from Duckdns if you don't have one.
    <Image path="/img/private-cloud/duck-1.png" />
 3. Next, sign in using your gmail.
    <Image path="/img/private-cloud/duck-2.png" />
-4. Once you have sign in, you will reach the following page.
-5. Create a DDNS that you like.
+4. [*Optional*] Duckdns website is protected by *cloudflare*, sometimes you will see the **reCaptcha** screen. Click on the **orange** color button and verify to go to the next screen.
    <Image path="/img/private-cloud/duck-3.png" />
-6. You will end up with a screen similar to the one below. Next, click on **install**.
+5. Create a DDNS you wish (example as shown below).
    <Image path="/img/private-cloud/duck-4.png" />
-7. Select `windows-gui`, and choose the DDNS you created just now.
+6. You will end up with a screen similar to the one below. Next, click on **install**.
    <Image path="/img/private-cloud/duck-5.png" />
-8. A guide will be shown similar to the screen below. Follow the steps.
+7. Select `windows-gui`, and choose the DDNS you created just now.
    <Image path="/img/private-cloud/duck-6.png" />
-9. Lastly, write the ddns you just created in the [checklist](https://docs.google.com/spreadsheets/d/1iqCgQMDHGcTYtt0HSgAsEAPTED1eltnQj8ywJdwYYx0/edit?usp=sharing) prepared. (Ex. `test-company.duckdns.org`)
+8. A guide will be shown similar to the screen below. Follow the steps.
+   <Image path="/img/private-cloud/duck-7.png" />
+9. [*Optional*] If the server doesn't have `java` installed, `duckdns` will prompt automatically. Click **OK** and proceed with `java` download and install.
+   <Image path="/img/private-cloud/duck-8.png" />
+10. Lastly, write the ddns you just created in the [checklist](https://docs.google.com/spreadsheets/d/1iqCgQMDHGcTYtt0HSgAsEAPTED1eltnQj8ywJdwYYx0/edit?usp=sharing) prepared. (Ex. `test-company.duckdns.org`)
