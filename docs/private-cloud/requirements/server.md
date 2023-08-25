@@ -47,3 +47,9 @@ Third party antivirus including avast, avira, kaspersky and so on have different
 	 - Step 1: [How to enter BIOS](https://www.laptopmag.com/articles/access-bios-windows-10)
 	 - Step 2: [Enable BIOS Virtualization](https://us.informatiweb.net/tutorials/it/bios/enable-virtualization-intel-vt-x-amd-v--3.html)
 	 - Step 3: [Enable Hyper-V Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
+
+
+## Login Credentials
+1. SQL Connect implemented **Google OpenID Connect (OIDC)** standard and utilize it in user login. This enhances the security and eliminates the use of username and password.
+2. Before setup SQL Connect server, users may prepare Google emails (Gmails). We will create the entries in our system and users will be able to login directly to our website with the Gmails without all the hassle.
+3. Other OpenID standard such as Microsoft, Facebook, etc. will be release in the future.
