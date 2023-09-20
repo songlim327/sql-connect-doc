@@ -21,7 +21,7 @@ Get a free DDNS from Duckdns if you don't have one.
    <Image path="/img/private-cloud/duck-5.png" />
 7. Select `windows-gui`, and choose the DDNS you created just now.
    <Image path="/img/private-cloud/duck-6.png" />
-8. A guide will be shown similar to the screen below. Follow the steps.
+8. A guide will be shown similar to the screen below. Follow the steps. (If the official download link failed, you can grab a copy of the installer from [here](https://drive.sql.com.my/s/epGTEtz3HPonGf6))
    <Image path="/img/private-cloud/duck-7.png" />
 9. [*Optional*] If the server doesn't have `java` installed, `duckdns` will prompt automatically. Click **OK** and proceed with `java` download and install.
    <Image path="/img/private-cloud/duck-8.png" />
