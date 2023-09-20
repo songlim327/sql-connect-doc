@@ -23,7 +23,7 @@ Solutions to some common errors in **Private Cloud**.
 
    <Image path="/img/private-cloud/bridge-1.png" />
 
-3. Look for adapters named `Ethernet` and `Ethernet (Bridge)`
+3. Look for adapters named `Ethernet` and `vEthernet (Bridge)`
 
    <Image path="/img/private-cloud/bridge-2.png" />
 
@@ -35,7 +35,7 @@ Solutions to some common errors in **Private Cloud**.
 
    <Image path="/img/private-cloud/bridge-3.png" />
 
-6. For `Ethernet (Bridge)`, it should be the following **uncheck** (Example shown below):
+6. For `vEthernet (Bridge)`, it should be the following **uncheck** (Example shown below):
 
    - Microsoft Network Adapter Multiplexor Protocol
    - Hyper-V Extensible Virtual Switch
