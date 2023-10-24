@@ -28,14 +28,14 @@ Solutions to some common errors in **Private Cloud**.
    <Image path="/img/private-cloud/bridge-2.png" />
 
 4. Right click and check the properties of each adapter.
-5. For `Ethernet`, it should have the following **check** (Example shown below):
+5. For `Ethernet`, it should have the following **CHECKED** ✅ (Example shown below):
 
    - Microsoft LLDP Protocol Driver
    - Hyper-V Extensible Virtual Switch
 
    <Image path="/img/private-cloud/bridge-3.png" />
 
-6. For `vEthernet (Bridge)`, it should be the following **uncheck** (Example shown below):
+6. For `vEthernet (Bridge)`, it should have the following **UNCHECKED** (Example shown below):
 
    - Microsoft Network Adapter Multiplexor Protocol
    - Hyper-V Extensible Virtual Switch
