@@ -104,23 +104,39 @@ The PDF file will be opened in a new tab, click download and save the file to lo
 
 ## SQL Connect Printing
 
-In SQL Connect, we have two groups of users (Public cloud users & private cloud users). As a private cloud users, you can print directly to your local printer as long as the printer is accessible from your server. In public, the only option you have is to use the "**SQL Connect Printer**" and then forward to your local printer.
+In SQL Connect, we have two groups of users (Public cloud users & private cloud users). As a private cloud users, you gain an extra option which able to print directly to your local printer as long as the printer is accessible from your server. While for public, you can select any option listed below:
+- PDF button in SQL Account
+- SQL Connect Printer
+- SQL Drive method
 
-<Image path="/img/general/print-1.png" />
+---
+### PDF button in SQL Account
+:::info
+This feature is only available in SQL Account version 5.2024.976.842 and above
+:::
+In SQL Account, go to the report preview, click on the PDF button located at the top left.
+
+<Image path="/img/general/pdf-print-1.png" />
+
+The pdf will be open in a new tab, you can then print using your local printer.
+
+---
+### SQL Connect Printer
+<Image path="/img/general/sql-connect-printer-1.png" />
 
 By using "**SQL Connect Printer**", you will then able to access the browser print dialog which has the right to utilize your local printer. From there, you can select the printer you want, size you like and so on. After select all the options you wish, click print. Below is an example of chrome print dialog:
 
-<Image path="/img/general/print-2.png" />
+<Image path="/img/general/sql-connect-printer-2.png" />
 
 ---
 
-### Alternative to SQL Connect Printer
+### SQL Drive method
 
-<Image path="/img/general/print-alt-1.png" />
-<Image path="/img/general/print-alt-2.png" />
-<Image path="/img/general/print-alt-3.png" />
-<Image path="/img/general/print-alt-4.png" />
-<Image path="/img/general/print-alt-5.png" />
+<Image path="/img/general/sql-drive-method-1.png" />
+<Image path="/img/general/sql-drive-method-2.png" />
+<Image path="/img/general/sql-drive-method-3.png" />
+<Image path="/img/general/sql-drive-method-4.png" />
+<Image path="/img/general/sql-drive-method-5.png" />
 
 ---
 
