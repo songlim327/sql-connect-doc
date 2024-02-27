@@ -110,7 +110,7 @@ In SQL Connect, we have two groups of users (Public cloud users & private cloud 
 - SQL Drive method
 
 ---
-### PDF button in SQL Account
+### PDF Print in SQL Account
 :::info
 This feature is only available in SQL Account version 5.2024.976.842 and above
 :::
@@ -118,7 +118,7 @@ In SQL Account, go to the report preview, click on the PDF button located at the
 
 <Image path="/img/general/pdf-print-1.png" />
 
-The pdf will be open in a new tab, you can then print using your local printer.
+The pdf will be open in your new tab, you can then select your local printer and print.
 
 ---
 ### SQL Connect Printer
