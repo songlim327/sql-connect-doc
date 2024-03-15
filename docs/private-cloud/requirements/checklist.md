@@ -7,6 +7,7 @@ sidebar_position: 2
 Summary of things to do before setup.
 
 ## Things to do
+
 1. Make sure the server is connected to fiber internet (e.g. **MAXIS**, **UNIFI**, **TIME**).
 :::caution Notes
 **STRICTLY NO STREAMYX/BROADBAND/UNIFI LITE ARE ALLOWED**

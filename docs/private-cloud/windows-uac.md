@@ -33,16 +33,16 @@ Video tutorial here:
 #### Environment
 
 1. Two emails registered.
-   - example1@gmail.com (has access to windows user example-01)
-   - example2@gmail.com (has access to windows user example-02)
+   - `example1@gmail.com` (has access to windows user example-01)
+   - `example2@gmail.com` (has access to windows user example-02)
 2. Two databases in the server.
    - db1
    - db2
 
 #### Assumptions
 
-1. example1@gmail.com can only access to db1.
-2. example2@gmail.com can only access to db2.
+1. `example1@gmail.com` can only access to db1.
+2. `example2@gmail.com` can only access to db2.
 
 #### Solutions
 

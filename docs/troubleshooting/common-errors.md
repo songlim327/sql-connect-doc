@@ -19,15 +19,15 @@ Some solutions to common errors in SQL Connect.
 1. Download the certificate from [ISRG-ROOT-X1](https://x1.i.lencr.org).
 2. Run the certificate file, you will see a windows as below.
 
-<Image path="/img/troubleshooting/windows-7-certificate-issue-1.png" />
+    <Image path="/img/troubleshooting/windows-7-certificate-issue-1.png" />
 
 3. Install the certificate. Select the second option, click `Browse`.
 
-<Image path="/img/troubleshooting/windows-7-certificate-issue-2.png" />
+    <Image path="/img/troubleshooting/windows-7-certificate-issue-2.png" />
 
 4. Select `Trusted Root Certificate Authorities`.
 
-<Image path="/img/troubleshooting/windows-7-certificate-issue-3.png" />
+    <Image path="/img/troubleshooting/windows-7-certificate-issue-3.png" />
 
 5. Reboot PC.
 

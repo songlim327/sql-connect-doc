@@ -61,17 +61,23 @@ sidebar_position: 3
 
 ## Printing Half Page
 
-- Add paper size.
+- Add half page paper size.
 
 <Image path="/img/general/half-page-1.png" />
 
-- Add another printer as norm for **Half Page**.
+- Go to **printer preferences**.
 
 <Image path="/img/general/half-page-2.png" />
+
+- Configure the printer to use the paper size we created before.
+
 <Image path="/img/general/half-page-3.png" />
+
+- Next, go to **printer properties**.
+
 <Image path="/img/general/half-page-4.png" />
 
-- Set default paper size.
+- Set the default paper size to the custom paper size we created.
 
 <Image path="/img/general/half-page-5.png" />
 
@@ -105,7 +111,8 @@ The PDF file will be opened in a new tab, click download and save the file to lo
 ## SQL Connect Printing
 
 In SQL Connect, we have two groups of users (Public cloud users & private cloud users). As a private cloud users, you gain an extra option which able to print directly to your local printer as long as the printer is accessible from your server. While for public, you can select any option listed below:
-- PDF button in SQL Account
+
+- PDF Print
 - SQL Connect Printer
 - SQL Drive method
 
@@ -127,7 +134,9 @@ In SQL Account, go to the report preview, click on the PDF button located at the
 The pdf will be open in your new tab, you can then select your local printer and print.
 
 ---
+
 ### SQL Connect Printer
+
 <Image path="/img/general/sql-connect-printer-1.png" />
 
 By using "**SQL Connect Printer**", you will then able to access the browser print dialog which has the right to utilize your local printer. From there, you can select the printer you want, size you like and so on. After select all the options you wish, click print. Below is an example of chrome print dialog:

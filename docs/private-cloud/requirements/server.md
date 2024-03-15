@@ -9,20 +9,22 @@ Please fulfill the server requirements below.
 ## Network
 
 1. Make sure to have fiber network (not **streamyx, broadband & unifi lite**) / low latency internet access. (ping below 20ms to [https://sql.com.my](https://sql.com.my))
-2. Reserve 2 IP Address: 
+2. Reserve 2 IP Address:
     - First IP Address: Windows server
     - Second IP Address: Debian 9 virtual machine
 3. Must have wired network connection/**Ethernet**.
 4. Port forwarding pointing towards the Debian virtual machine. Configuration details as below:
-```
-8822[WAN] : 4822[LAN] - TCP    
-8122[WAN] : 22[LAN] - TCP
-```
-:::caution Notes
-NO PORT FORWARDING ON THE WINDOWS.
-:::
 
-5. Have a ready dynamic DNS (DDNS) / Fixed WAN IP Address.
+    ```txt
+    8822[WAN] : 4822[LAN] - TCP    
+    8122[WAN] : 22[LAN] - TCP
+    ```
+
+    :::caution Notes
+    NO PORT FORWARDING ON THE WINDOWS.
+    :::
+
+5. Have a ready **dynamic DNS (DDNS)** / Fixed WAN IP Address.
 
 ## Hardware
 
@@ -44,12 +46,12 @@ Third party antivirus including avast, avira, kaspersky and so on have different
     - The version mentioned above supports unlimited concurrent users.
     - Others will have a limit of 15 concurrent users login at once.
 5. Make sure to enable hyper-v in the server.
-	 - Step 1: [How to enter BIOS](https://www.laptopmag.com/articles/access-bios-windows-10)
-	 - Step 2: [Enable BIOS Virtualization](https://us.informatiweb.net/tutorials/it/bios/enable-virtualization-intel-vt-x-amd-v--3.html)
-	 - Step 3: [Enable Hyper-V Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
-
+    - Step 1: [How to enter BIOS](https://www.laptopmag.com/articles/access-bios-windows-10)
+    - Step 2: [Enable BIOS Virtualization](https://us.informatiweb.net/tutorials/it/bios/enable-virtualization-intel-vt-x-amd-v--3.html)
+    - Step 3: [Enable Hyper-V Virtualization](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)
 
 ## Login Credentials
+
 1. SQL Connect implemented **Google OpenID Connect (OIDC)** standard and utilize it in user login. This enhances the security and eliminates the use of username and password.
 2. Before setup SQL Connect server, users may prepare Google emails (Gmails). We will create the entries in our system and users will be able to login directly to our website with the Gmails without all the hassle.
 3. Other OpenID standard such as Microsoft, Facebook, etc. will be release in the future.
