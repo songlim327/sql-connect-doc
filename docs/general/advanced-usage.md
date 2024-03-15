@@ -110,9 +110,15 @@ In SQL Connect, we have two groups of users (Public cloud users & private cloud 
 - SQL Drive method
 
 ---
-### PDF Print in SQL Account
+
+### PDF Print
+
 :::info
-This feature is only available in SQL Account version 5.2024.976.842 and above
+This feature is available in specific versions:
+
+- SQL Account version 5.2024.976.842 and above
+- SQL Payroll version 1.2024.254.204 and above
+
 :::
 In SQL Account, go to the report preview, click on the PDF button located at the top left.
 
