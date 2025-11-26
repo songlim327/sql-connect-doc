@@ -20,4 +20,4 @@ Ready to explore? Click the link below to get started:
 
 ## User Guides
 
-[General Guide](https://docs.sql.com.my/category/sql-mobile-connect)
+[General Guide](https://docs.sql.com.my/sqlacc/category/sql-mobile-connect)
